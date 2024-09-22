@@ -1,0 +1,45 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+
+}
+body{
+	background-color: violet;
+	display:flex;
+	align-content: center;
+	
+}
+ 
+.container{
+	
+	width:650px;
+	background-color:grey;
+	text-align: center;
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+	
+
+	
+}
+
+
+/* .container .h]{
+	padding:20px;
+} */
+.btn {
+	background-color:brown;
+	color:pink;
+    
+    padding:30px;
+    padding:30px 160px 30px 160px;
+	display:flex;
+	justify-content: space-between;
+	
+}
+.btn li{
+	font-style:none;
+    text-decoration: none;
+}
+
